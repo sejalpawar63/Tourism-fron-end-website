@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+} 
+body{
+    font-family: "primary" ,serif;
+    line-height: 1.6em;
+} 
+.navbar{
+    background-color: #333; 
+    color: #fff; 
+    overflow:auto;
+
+} 
+.headersymbol{
+  color: #fff;
+    float: left;
+    padding: 20px;
+}
+.navlist{
+    float:right;
+    list-style: none;
+} 
+a{
+    text-decoration: none;
+    color: lavender;
+}
+a:hover,a.current{
+    background-color:#444444;
+    color: #cc7af1;
+}
+.main-list-item{
+    float: left;
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+    text-align:center;
+    padding: 25px;
+    font-size: 22px;
+
+
+}
+body {
+    background-image: url('ratnagiri.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    object-fit: cover; 
+    background-position-y: 75px;
+  } 
+  .frame1{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 20px;
+    color: #fff;
+    padding-top: 15%;
+  }
+  .frame2{
+    max-width: 768px;
+    margin: auto;
+  }
+  .h1{
+    font-size: 3.75rem;
+    font-weight: 500;
+  }
+#main-footer{
+  background-color: rgb(36, 34, 34); 
+  color: #fff; 
+  height: 50px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  padding-top: 20px;
+}  
+.copyright{
+  float: right;
+}

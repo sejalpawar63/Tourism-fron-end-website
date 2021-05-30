@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+} 
+body{
+    font-family: "primary" ,serif;
+    line-height: 1.6em;
+} 
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.25;
+    margin-bottom: 20px;
+    font-weight: inherit;
+    font-size: inherit;
+}
+.navbar{
+    background-color: #333; 
+    color: #fff; 
+    overflow:auto;
+    font-size: 22px;
+
+} 
+.headersymbol{
+  color: #fff;
+    float: left;
+    padding: 20px;
+}
+.navlist{
+    float:right;
+    list-style: none;
+} 
+a{
+    text-decoration: none;
+    color: lavender;
+}
+a:hover,a.current{
+    background-color:#444444;
+    color: #cc7af1;
+}
+.main-list-item{
+    float: left;
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+    text-align:center;
+    padding: 25px;
+    font-size: 22px;
+
+
+}
+.pagetitle{
+    margin-bottom: 60px;
+} 
+.page-title{
+    max-width: 800px; 
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+} 
+.title_primary{
+    max-width: 580px; 
+    color: #005870;
+    margin: 0 auto; 
+}
+.heading-text{
+    font-size: 3.75rem; 
+    font-weight: 500;
+    text-align: center; 
+    padding-top: 50px;
+
+}
+.pagetitle-info{
+    font-size: 26px;
+    color: #505050;
+    font-weight: 500;
+    line-height: 1.4;
+    text-align: center; 
+    width: 700px;
+    padding-top: 30px;
+} 
+p{
+    line-height: 1.6875;
+    margin-bottom: 20px;
+}
+.imagewrapper{
+    width: 100%;
+    height: 50%; 
+
+} 
+.image{
+    width: 100%; 
+    height: 500px; 
+    object-fit: cover;
+} 
+.page-wrapper {
+    min-height: 100%;
+  }
+  
+ 
+  
+  /* IMAGE GALLERY */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 20%;
+    max-width: 20%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  
+  /* FAMOUS PLACES PAGE */
+  /* IMAGE GALLERY */
+  .image-gallery {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .inner-img-box {
+    border: 1px solid #ccc;
+  }
+  
+  .inner-images {
+    width: 100%;
+    height: 100%
+  }
+  
+  .beachname {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .img-box {
+    margin-top: 5px;
+    padding: 0 8px;
+    width: 400px;
+    height: 400px;
+  }
+  .button-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; 
+    padding-top: 30px;
+  } 
+  .button{
+    box-sizing: border-box;
+  } 
+  .buttonbody{
+    background: #212921;
+    border: 1px solid #000a02;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1;
+    display: inline-flex;
+    text-decoration: none;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  .button-text{
+    padding: 13px 14px 16px; 
+    position: relative;
+    z-index: 1;
+    min-width: 100px;
+    text-align: center;
+  }
+#main-footer{
+    background-color: rgb(36, 34, 34); 
+    color: #fff; 
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    padding-top: 20px;
+  }
+  .copyright{
+    float: right;
+  }
+  
+  
+
+  
